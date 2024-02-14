@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
     padding: 0;
@@ -14,7 +16,7 @@ i{
 }
 p{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px !important;
 }
 hr{
     opacity: .6;
@@ -25,13 +27,14 @@ hr{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 10px;
     background-color: #fff;
     margin-bottom: 10px;
     /* width: 100%; */
 
     
 }
+
 body.dark {
 	background: #292C35;
 }
@@ -101,7 +104,7 @@ body.dark {
 
 }
 .navbar .left-nav .search input{
-    width: 500px;
+    width: 400px;
     padding: 10px 40px;
     
 }
@@ -126,13 +129,14 @@ body.dark {
 .container{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    /* gap: 10px; */
+    margin: 5px;
 }
 /* <!---------------- left-sec -----------------------> */
 
 .left-sec {
     background-color: #fff;
-    padding: 20px;
+    padding: 5px 70px 5px 10px;
 
 }
 .left-sec .user{
@@ -141,7 +145,7 @@ body.dark {
     gap: 10px;
 }
 .left-sec img{
-    width: 30px;
+    width: 20px;
     border-radius: 50%;
 }
 .left-sec .item{
@@ -160,6 +164,8 @@ body.dark {
 }
 .middle-sec .uppur-sec .story{
     position: relative;
+    cursor: pointer;
+
 
 }
 .middle-sec .uppur-sec img{
@@ -169,14 +175,29 @@ body.dark {
 }
 .middle-sec .uppur-sec .story h3{
     position: absolute;
-    bottom: -10px;
+    bottom: -2px;
     left: 10px;
     color:#fff;
+    font-size: 13px;
 
+}
+.middle-sec .uppur-sec .story button{
+    background-color: #5271ff;
+    border: none;
+    border-radius: 50%;
+    bottom: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    height: 30px;
+    left: 7px;
+    line-height: 30px;
+    position: absolute;
+    width: 25px;
 }
 .bottom-sec .posts .post{
     background-color: #fff;
-    padding: 10px;
+    padding: 5px 10px;
     border-radius: 20px;
     margin-top: 20px;
 }
@@ -185,6 +206,8 @@ body.dark {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
+
 }
 .bottom-sec .posts .post .name div{
     display: flex;
@@ -208,23 +231,28 @@ body.dark {
     font-size: 20px;
     gap: 15px;
 }
+.bottom-sec .posts .post img{
+    width: 100%;
+}
 /* <!---------------- right-sec ---------------------> */
 
 .right-sec{
-    padding: 0 10px;
+    /* padding: 0 10px; */
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 .right-sec .Suggestions{
     background-color: #fff;
     margin-bottom: 1px;
-    padding: 10px;
+    padding: 2px 20px;
+    
 }
 .right-sec .Activetion{
     background-color: #fff;
     margin-bottom: 1px;
-    padding: 10px;
+    padding: 2px 20px;
+    
 
 }
 
@@ -242,16 +270,18 @@ body.dark {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 15px;
+    gap: 5px;
 }
 .right-sec .sug div button{
-    padding: 5px 20px;
-    background-color:rgba(255, 0, 0, 0.701);
+    padding: 2px;
+    background-color:#f0544f;
     color: #fff;
     border-radius: 5px;
+    cursor: pointer;
+
 }
 .right-sec .sug div .btn{
-    background-color: #0d00ffc0;
+    background-color: #5271ff;
 }
 .right-sec .active{
     display: flex;
@@ -273,7 +303,8 @@ body.dark {
    
     background-color: #fff;
     margin-bottom: 1px;
-    padding: 10px;
+    padding: 2px 20px;
+    
 }
 .right-sec .Online .on-frind div{
     display: flex;
